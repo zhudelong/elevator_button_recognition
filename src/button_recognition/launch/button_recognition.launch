@@ -1,0 +1,7 @@
+<launch>
+  <node pkg="button_recognition" type="recognition_service.py" name="button_recognition" output="screen">
+  <param name="graph_path" value="$(find button_recognition)/ocr_rcnn_model/frozen_inference_graph.pb"/>
+  <param name="label_path" value="$(find button_recognition)/model_config/button_label_map.pbtxt"/>
+  <param name="image_path" value="$(find button_recognition)/test_samples"/>
+  </node>
+</launch>

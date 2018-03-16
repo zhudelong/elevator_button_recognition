@@ -1,0 +1,9 @@
+int32 y_min
+int32 x_min
+int32 y_max
+int32 x_max
+int32 categ
+float32 score
+int32 char0
+int32 char1
+int32 char2
