@@ -42,25 +42,26 @@ In this package, a **button recognition service** is implemented based on a trai
 
 <p align="center">
  <img src="demos/sample-1.jpg" width=960 height=540>
- Image Source: [https://www.youtube.com/watch?v=bQpEYpg1kLg&t=8s](https://www.youtube.com/watch?v=bQpEYpg1kLg&t=8s)
+ Image Source: [https://www.youtube.com/watch?v=bQpEYpg1kLg&t=8s]
 </p>
 <p align="center">
 <img src="demos/sample-2.jpg" width=960 height=540>
- Image Source: [https://www.youtube.com/watch?v=k1bTibYQjTo&t=9s](https://www.youtube.com/watch?v=k1bTibYQjTo&t=9s)
+ Image Source: [https://www.youtube.com/watch?v=k1bTibYQjTo&t=9s]
 </p>
 
 0. Two demo-videos are also provided. The [first one](https://www.youtube.com/watch?v=2iRoNHpzLl0) is a composition video, where each frame is processed off-line, then composed to a complete video. This video shows us the recognition performance of OCR-RCNN in an untrained elevator. The [second one](https://www.youtube.com/watch?v=fR4KnNOLeNs) is a real-time video, where the OCR-RCNN and a `Multi-Tracker` is utilized to carry out on-line recognition task. As we can see, although the tracker can help increase the recognition speed, its accuracy and robustness are worse than the off-line version. So, it is crucial to further improve the OCR-RCNN's time efficiency in the next stage!
 
 
 <p align="center">
-<img [src="https://img.youtube.com/vi/2iRoNHpzLl0/0.jpg"(/home/DataBase/elevator_panel_database/github/README.md) width=960 height=540>
+<img src="https://img.youtube.com/vi/2iRoNHpzLl0/0.jpg" width=960 height=540>(https://www.youtube.com/watch?v=2iRoNHpzLl0)
 Processed by OCR-RCNN off-line.
 </p>
 
 <p align="center">
-[<img src="https://img.youtube.com/vi/fR4KnNOLeNs/0.jpg" width=960 height=540>](https://www.youtube.com/watch?v=fR4KnNOLeNs)
+<img src="https://img.youtube.com/vi/fR4KnNOLeNs/0.jpg" width=960 height=540>(https://www.youtube.com/watch?v=fR4KnNOLeNs)
 Processed by OCR-RCNN and KCF tracker on-line.
 </p>
+
 
 
 
