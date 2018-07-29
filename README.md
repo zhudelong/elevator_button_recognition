@@ -1,4 +1,4 @@
-# An Novel OCR-RCNN for Elevator Button Recognition
+# A Novel OCR-RCNN for Elevator Button Recognition
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
 
