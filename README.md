@@ -1,12 +1,14 @@
 # A Novel OCR-RCNN for Elevator Button Recognition
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
+For details, please refer to preprint [paper](http://www.ee.cuhk.edu.hk/~tgli/TingguangLi_files/IROS18_2028_FI.pdf)， the publication will be soon available.
 
 ### Introduction
 
 **OCR-RCNN** is designed for elevator button recognition task based on [Faster RCNN](http://arxiv.org/abs/1506.01497), which includes a Region Proposal Network (RPN), an Object Detection Network and a Character Recognition Network. This framework aims to help solve inter-floor navigation problem of service robots.
 
-In this package, a **button recognition service** is implemented based on a trained OCR-RCNN model. The service takes a raw image as input and returns the detection, localization and character recognition results. Besides, a **Multi-Tracker** is also implemented, which utilizes the outputs of recognition service to initialize the tracking process, yielding an on-line detection performance.    
+In this package, a **button recognition service** is implemented based on a trained OCR-RCNN model. The service takes a raw image as input and returns the detection, localization and character recognition results. Besides, a **Multi-Tracker** is also implemented, which utilizes the outputs of recognition service to initialize the tracking process, yielding an on-line detection performance.
+
 
 ### Contents
 0. [Requirement](#requirement)
