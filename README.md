@@ -2,7 +2,7 @@
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
 
-For details, please refer to preprint [paper](http://www.ee.cuhk.edu.hk/~tgli/TingguangLi_files/IROS18_2028_FI.pdf)， the publication will be soon available.
+For details, please refer to our preprint [paper](http://www.ee.cuhk.edu.hk/~tgli/TingguangLi_files/IROS18_2028_FI.pdf)， the publication will be soon available.
 
 ### Introduction
 
