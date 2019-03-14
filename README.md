@@ -2,7 +2,7 @@
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
 
-For details, please refer to our preprint [paper](http://www.ee.cuhk.edu.hk/~tgli/TingguangLi_files/IROS18_2028_FI.pdf)， the publication will be soon available.
+### A more efficient and accurate model, [OCR-RCNN-v2](https://github.com/zhudelong/ocr-rcnn-v2), is available now !!!
 
 ### Introduction
 
@@ -10,13 +10,26 @@ For details, please refer to our preprint [paper](http://www.ee.cuhk.edu.hk/~tgl
 
 In this package, a **button recognition service** is implemented based on a trained OCR-RCNN model. The service takes a raw image as input and returns the detection, localization and character recognition results. Besides, a **Multi-Tracker** is also implemented, which utilizes the outputs of recognition service to initialize the tracking process, yielding an on-line detection performance.
 
+If you find it helpful to your project, please consider cite our paper:
+
+```
+@inproceedings{zhu2018novel,
+  title={A Novel OCR-RCNN for Elevator Button Recognition},
+  author={Zhu, Delong and Li, Tingguang and Ho, Danny and Zhou, Tong and Meng, Max QH},
+  booktitle={2018 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={3626--3631},
+  year={2018},
+  organization={IEEE}
+}
+```
+
 
 ### Contents
-0. [Requirement](#requirement)
+0. [Requirements](#requirements)
 0. [Preparation](#Preparation)
 0. [Demonstration](#Demonstration)
 
-### Requirement
+### Requirements
 
 1. Ubuntu 14.04
 2. ROS indigo
@@ -39,9 +52,9 @@ In this package, a **button recognition service** is implemented based on a trai
 ### Demonstration:
 1.	Run `roslaunch button_recognition button_recognition.launch ` to launch the recognition service, which recieves a `sensor_msgs/CompressedImage` as input and return a `recog_result` (self-defined) type of response.
 2.	Run `roslaunch button_tracker button_tracker.launch` to launch the tracking node, where the recognition service is called to initialize a 'Multi-Tracker`.
-    - The simplest KCF tracker is used in this implementation.
-    - Change the multi-tracker to single-tracker will further increase the processing speed.
-3. Two demo-mages are listed as follows. They are screenshots from two Youtube video. Recognition results are visualized at the center of each bounding box.
+   - The simplest KCF tracker is used in this implementation.
+   - Change the multi-tracker to single-tracker will further increase the processing speed.
+3.	Two demo-images are listed as follows. They are screenshots from two Youtube videos. Recognition results are visualized at the center of each bounding box.
 
   <p align="center">
     <img src="demos/sample-1.jpg" width=960 height=540>
