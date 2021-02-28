@@ -2,7 +2,7 @@
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
 
-# A more efficient and accurate model, [Cascaded OCR-RCNN](https://github.com/zhudelong/ocr-rcnn-v2), is available now !!! The large-scale dataset will also be available soon! 
+# A more efficient and accurate model, [Cascaded OCR-RCNN](https://github.com/zhudelong/ocr-rcnn-v2), as well as the [BUTTON DATASET](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155067732_link_cuhk_edu_hk/EXk9Wqtilt9OlwlnpUtzJ50BmDu6vObE-ZjW2H6iVgUiZQ?e=0QJAyB) is available now !!! 
 
 ### Introduction
 
