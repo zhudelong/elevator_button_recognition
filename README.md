@@ -2,7 +2,7 @@
 
 by [Delong Zhu](http://www.ee.cuhk.edu.hk/~dlzhu/) at Robotics, Perception, and AI Laboratory, CUHK
 
-# A more efficient and accurate model, [Cascaded OCR-RCNN](https://github.com/zhudelong/ocr-rcnn-v2), as well as the [BUTTON DATASET](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155067732_link_cuhk_edu_hk/EXk9Wqtilt9OlwlnpUtzJ50BmDu6vObE-ZjW2H6iVgUiZQ?e=0QJAyB) is available now !!! 
+# A more efficient and accurate model, [Cascaded OCR-RCNN](https://github.com/zhudelong/ocr-rcnn-v2), as well as the [BUTTON DATASET](https://mycuhk-my.sharepoint.com/:u:/g/personal/1155067732_link_cuhk_edu_hk/EXk9Wqtilt9OlwlnpUtzJ50BmDu6vObE-ZjW2H6iVgUiZQ?e=0QJAyB), is available now, A ``dataset_statistics.py`` in the utils folder is also provided for dataset manipulation.
 
 ### Introduction
 
@@ -21,6 +21,15 @@ If you find it helpful to your project, please consider cite our paper:
   year={2018},
   organization={IEEE}
 }
+@ARTICLE{9324975,
+  author={D. {Zhu} and Y. {Fang} and Z. {Min} and D. {Ho} and M. Q. . -H. {Meng}},
+  journal={IEEE Transactions on Industrial Electronics}, 
+  title={OCR-RCNN: An Accurate and Efficient Framework for Elevator Button Recognition}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/TIE.2021.3050357}}
 ```
 
 
